@@ -5,3 +5,68 @@ body {
 footer  {
     padding-top: 20px;
 }
+
+#display-news{
+    display: grid;grid-template-columns: repeat(3, 3fr);grid-gap: 10px 16px !important;
+
+}
+
+.articleimages{
+    width: 300px;
+    height: 280px ;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-top-left-radius:4px ;
+    border-top-right-radius:4px ;
+    float:left;
+    height:100%;
+}
+.card-top-color{
+    background-color:#a8943d;
+    height: 8px;
+    border-top-left-radius:4px ;
+    border-top-right-radius:4px ;
+}
+
+.card div h4{
+    padding: 5px;
+    font-family: "Gill Sans", sans-serif;
+}
+.card div p{
+    font-weight: 570;
+    font-family: "Gill Sans", sans-serif;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.navbar{background-color: black;}
+
+.d-flex{flex-direction: column;}
+
+#typingbelow{display: flex; flex-direction: column;}
+
+.btn{background-color: #a8943d;color: white; font-weight: 700; font-size: medium;}
+
+#headerimagetext{
+    display:flex;
+    gap: 10px;
+}
+
+#headerimg{
+    height: 40px;
+    width: 40px;
+}
+
+.home{
+    padding-left: 50vh;
+}
+#vueimage{
+    width: 350px;
+    height: 350px;
+}
